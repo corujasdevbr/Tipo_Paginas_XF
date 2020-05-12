@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:Tipo_Paginas_XF.Pages.Carousel"
+             x:Class="Tipo_Paginas_XF.Pages.Carousel.Onboarding">
+    <local:Page1></local:Page1>
+    <local:Page2></local:Page2>
+    <local:Page3></local:Page3>
+</CarouselPage>

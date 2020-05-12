@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Tipo_Paginas_XF.Pages.Navigation.Page1"
+             Title="Titulo da Navigation">
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisa"></ToolbarItem>
+        <ToolbarItem Text="Detalhes"></ToolbarItem>
+        <ToolbarItem Text="Ordenar"></ToolbarItem>
+    </ContentPage.ToolbarItems>-->
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Eu sou uma Content Page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Mudar Página 2" x:Name="btnMudarPagina" Clicked="btnMudarPagina_Clicked" />
+
+            <Button Text="Chamar Modal" x:Name="btnModal" Clicked="btnModal_Clicked" />
+
+            <Button Text="Chamar Layout" x:Name="btnLayout" Clicked="btnLayout_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
